@@ -21,6 +21,7 @@ Otra herramienta que dejamos a disposicion es pycharm, en el siguiente enlace es
 https://www.jetbrains.com/es-es/pycharm/download/#section=windows
 
 Como mencionamos en la descripcion el proposito de este proyecto es almacenar la firma de los archivos en el servidor, el cual las recibe desde un cliente que se encuentra registrado, Este cliente se encuentra almacenado en una base de datos Mysql creada por nosotros los desarrolladores, para su conexion desde python se necesita un driver que permita conectarse desde su computador, esto se puede realizar al digitar una linea de comando para que asi la computadora cuente con este driver y desde el proyecto solo importe su libreria.
+
 python -m pip install pymysql
 
 ![image](https://user-images.githubusercontent.com/37676810/98874623-358ef400-2440-11eb-86a5-978a5bb8aa58.png)
